@@ -33,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Привет, я Frond-End разработчик с Украины!
+        👋 Привет, я Frond-End разработчик с Украины!
       </Box>
 
       <Box display={{ md: 'flex' }}>

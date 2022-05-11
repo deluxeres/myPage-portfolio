@@ -39,8 +39,7 @@ const Posts = () => (
           <GridItem
             title="Запись №3"
             thumbnail={thumb500PaidUsers}
-            href="https:/google.com"
-            target="_blank"
+            href="/post3"
           />
           <GridItem
             title="Запись №4"

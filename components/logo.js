@@ -20,6 +20,7 @@ const LogoBox = styled.span`
     transform: rotate(20deg);
   }
 `
+const logoText = "</deluxe>"
 
 const Logo = () => {
   const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
@@ -31,11 +32,11 @@ const Logo = () => {
           <Image src={footPrintImg} width={20} height={20} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily='M PLUS Rounded 1c", sans-serif'
+            fontFamily='Roboto'
             fontWeight="bold"
-            ml={3}
+            ml={2}
           >
-            Ruslan//deluxe
+           {logoText}
           </Text>
         </LogoBox>
       </a>
