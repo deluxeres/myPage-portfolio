@@ -72,10 +72,13 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Работы
+          💼Работы
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Записи
+          📝Записи
+          </LinkItem>
+          <LinkItem href="/skills" path={path}>
+          👨‍💻Мои навыки
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -111,6 +114,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Записи</MenuItem>
+                </NextLink>
+                <NextLink href="/skills" passHref>
+                   <MenuItem as={Link}>Мои навыки</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
